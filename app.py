@@ -4,7 +4,7 @@ from sqlalchemy import text
 list_doctor = ['', 'dr. Nurita', 'dr. Yogi', 'dr. Wibowo', 'dr. Ulama', 'dr. Ping']
 
 conn = st.connection("postgresql", type="sql", 
-                     url="postgresql://renoreyhan35:aERFQuCWr3n1@ep-throbbing-dust-33405991.ap-southeast-1.aws.neon.tech/db4")
+                     url="postgresql://morenoafriansyah10:f7XqjhuW3VwA@ep-solitary-pine-44076365-pooler.ap-southeast-1.aws.neon.tech/tubesmbd3")
 with conn.session as session:
     query = text('CREATE TABLE IF NOT EXISTS SCHEDULE (id serial, doctor_name varchar, patient_name varchar, gender char(25), \
                                                        symptom text, handphone varchar, address text, tanggal date);')
