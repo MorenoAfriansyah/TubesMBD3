@@ -21,8 +21,8 @@ if page == "Edit Data":
     if st.button('Tambah Data'):
         with conn.session as session:
             query = text('INSERT INTO schedule (nama_dosen, nip, departemen_dosen, pendidikan_dosen, sosmed) \
-                          VALUES (:1, :2, :3, :4, :5, :6);')
-            session.execute(query, {'1':'', '2':'', '3':'', '4':'', '5':'', '6':''})
+                          VALUES (:1, :2, :3, :4, :5);')
+            session.execute(query, {'1':'', '2':'', '3':'', '4':'', '5':''})
             session.commit()
 
     data = conn.query('SELECT * FROM schedule ORDER By id;', ttl="0")
