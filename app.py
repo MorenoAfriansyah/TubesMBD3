@@ -48,7 +48,7 @@ if page == "Edit Data":
                     if st.form_submit_button('UPDATE'):
                         with conn.session as session:
                             query = text('UPDATE schedule \
-                                          SET nama_dosen=:1, nip=:2, departemen_dosen=:3, pendidikan_dosen=:4, sosmed=:5, \
+                                          SET nama_dosen=:1, nip=:2, departemen_dosen=:3, pendidikan_dosen=:4, sosmed=:5 \
                                           WHERE id=:6;')
                             session.execute(query, {'1':nama_dosen, '2':nip, '3':departemen_dosen, '4':pendidikan_dosen, '5':sosmed, '6':id})
                             session.commit()
