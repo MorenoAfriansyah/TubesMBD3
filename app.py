@@ -50,7 +50,7 @@ if page == "Edit Data":
                             query = text('UPDATE schedule \
                                           SET nama_dosen=:1, nip=:2, departemen_dosen=:3, pendidikan_dosen=:4, sosmed=:5, \
                                           WHERE id=:6;')
-                            session.execute(query, {'1':nama_dosen, '2':nip, '3':departemen_dosen, '4':pendidikan_dosen, '5':sosmed, '6':id})
+                            session.execute(query, {'1':nama_dosen_baru, '2':nip_baru, '3':departemen_dosen_baru, '4':pendidikan_dosen_baru, '5':sosmed_baru, '6':id})
                             session.commit()
                             st.experimental_rerun()
 
