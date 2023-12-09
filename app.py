@@ -6,7 +6,7 @@ list_doctor = ['', 'Dra. Sri Mumpuni Retnaningsih, M.T', 'Dra. Lucia Aridinanti,
 conn = st.connection("postgresql", type="sql", 
                      url="postgresql://morenoafriansyah10:f7XqjhuW3VwA@ep-solitary-pine-44076365-pooler.ap-southeast-1.aws.neon.tech/tubesmbd3")
 with conn.session as session:
-    query = text('CREATE TABLE IF NOT EXISTS SCHEDULE (id serial, nama_dosen varchar, nip integer, departemen_dosen varchar, pendidikan_dosen varchar, \
+    query = text('CREATE TABLE IF NOT EXISTS SCHEDULE (id serial, nama_dosen varchar, nip varchar, departemen_dosen varchar, pendidikan_dosen varchar, \
                                                        sosmed text);')
     session.execute(query)
 
