@@ -2,7 +2,7 @@ drop table if exists schedule;
 create table schedule (
 	id serial,
 	nama_dosen text,
-	nip text,
+	nip integer,
 	departemen_dosen text,
 	pendidikan_dosen text,
 	sosmed text
