@@ -14,7 +14,5 @@ values
 	('Dra. Lucia Aridinanti, M.Si', '196101301987012001', 'Statistika Bisnis', 'Manajemen Operasi, Teknik Pengukuran Produktifitas, Mengantar Metode Statistika', 'luciaridinanti@gmail.com'),
 	('Dr. Wahyu Wibowo, S.Si, M.Si', '197403281998021001', 'Statistika Bisnis', 'Pengantar Metode Statistika 1, Analisis Data 1, Pengantar Aplikasi Komputer', 'wahyu.stk@gmail.com'),
 	('Iis Dewi Ratih, S.Si, M.Si', '199106102015042001', 'Statistika Bisnis', 'Analisis Data Kategorik, Metode Regresi', 'iisdewiratih@gmail.com'),
-	('Ir. Sri Pingit Wulandari, M.Si', '196206031987012001', 'Statistika Bisnis', 'Pengantar Metode Statistika 1, Analisis Data Kategorik, Metode Regresi', 'mumpuni@statistika.its.ac.id'),
-	('Dra. Lucia Aridinanti M.Si', '196101301987012001', 'Statistika Bisnis', 'Manajemen Operasi, Teknik Pengukuran Produktifitas, Mengantar Metode Statistika', 'luciaridinanti@gmail.com'),
-	('Dr. Wahyu Wibowo, S.Si, M.Si', '197403281998021001', 'Statistika Bisnis', 'Pengantar Metode Statistika 1, Analisis Data 1, Pengantar Aplikasi Komputer', 'wahyu.stk@gmail.com')
+	('Ir. Sri Pingit Wulandari, M.Si', '196206031987012001', 'Statistika Bisnis', 'Pengantar Metode Statistika 1, Analisis Data Kategorik, Metode Regresi', 'mumpuni@statistika.its.ac.id')
 	;
