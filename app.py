@@ -1,7 +1,7 @@
 import streamlit as st
 from sqlalchemy import text
 
-list_dosen = ['', 'Dra. Sri Mumpuni Retnaningsih, M.T', 'Dra. Lucia Aridinanti, M.Si', 'Dr. Wahyu Wibowo, S.Si, M.Si', 'Iis Dewi Ratih, S.Si, M.Si', 'Ir. Sri Pingit Wulandari, M.Si']
+list_doctor = ['', 'Dra. Sri Mumpuni Retnaningsih, M.T', 'Dra. Lucia Aridinanti, M.Si', 'Dr. Wahyu Wibowo, S.Si, M.Si', 'Iis Dewi Ratih, S.Si, M.Si', 'Ir. Sri Pingit Wulandari, M.Si']
 
 conn = st.connection("postgresql", type="sql", 
                      url="postgresql://morenoafriansyah10:f7XqjhuW3VwA@ep-solitary-pine-44076365-pooler.ap-southeast-1.aws.neon.tech/tubesmbd3")
