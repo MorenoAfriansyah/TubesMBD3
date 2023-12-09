@@ -31,7 +31,7 @@ if page == "Edit Data":
         nama_dosen_lama = result["nama_dosen"]
         nip_lama = result["nip"]
         departemen_dosen_lama = result["departemen_dosen"]
-        pendidikan_dosen_lama = result[" pendidikan_dosen"]
+        pendidikan_dosen_lama = result["pendidikan_dosen"]
         sosmed_lama = result["sosmed"]
 
         with st.expander(f'a.n. {departemen_dosen_lama}'):
