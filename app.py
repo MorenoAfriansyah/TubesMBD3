@@ -42,7 +42,7 @@ if page == "Edit Data":
                 pendidikan_dosen_baru = st.text_input("pendidikan_dosen", pendidikan_dosen_lama)
                 sosmed_baru = st.text_input("sosmed", sosmed_lama)
 
-                col1, col2 = st.columns([1, 7])
+                col1, col2 = st.columns([1, 6])
 
                 with col1:
                     if st.form_submit_button('UPDATE'):
