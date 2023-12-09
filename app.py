@@ -34,7 +34,7 @@ if page == "Edit Data":
         pendidikan_dosen_lama = result["pendidikan_dosen"]
         sosmed_lama = result["sosmed"]
 
-        with st.expander(f'a.n. {nama_dosen}'):
+        with st.expander(f'a.n. {nama_dosen_lama}'):
             with st.form(f'data-{id}'):
                 nama_dosen_baru = st.text_input("nama_dosen", nama_dosen_lama)
                 nip_baru = st.text_input("nip", nip_lama)
